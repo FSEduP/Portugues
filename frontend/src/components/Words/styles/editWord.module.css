@@ -1,0 +1,39 @@
+.editContainer, .searchContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.resultsList {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0 0;
+}
+
+.resultsList li {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.editContainer label {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+  margin-bottom: 12px;
+  font-weight: 600;
+  gap: 8px;
+}
+
+.editContainer label input {
+  padding: 6px 8px;
+  font-size: 1em;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 50%;
+}

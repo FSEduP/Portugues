@@ -1,0 +1,11 @@
+.home {
+    font-size: 150px;
+}
+
+.gradientText {
+    background: linear-gradient(90deg, #006600 41%, #ff0000 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}

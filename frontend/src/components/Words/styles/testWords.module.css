@@ -1,0 +1,53 @@
+.chooseContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+select {
+  border-radius: 8px;
+  border: 1px solid #444;
+  font-size: 16px;
+  padding: 10px;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #eee;
+  transition: border-color 0.25s, background-color 0.25s;
+}
+
+select::placeholder {
+  color: #999;
+}
+
+select:hover {
+  border-color: #646cff;
+  background-color: #222;
+}
+
+select:focus,
+select:focus-visible {
+  outline: none;
+  border-color: #646cff;
+  background-color: #222;
+  box-shadow: 0 0 4px 2px rgba(100, 108, 255, 0.5);
+}
+
+.chooseContainer label {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+}
+
+.checkAnswer {
+    margin-left: 10px;
+}
+
+.nextWord {
+    margin-top: 10px;
+}
+
+.finishTry {
+    margin-top: 10px;
+}

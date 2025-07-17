@@ -1,0 +1,14 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.message {
+  color: #28a745;
+  font-size: 18px;
+  margin-top: 12px;
+  font-weight: 600;
+}
